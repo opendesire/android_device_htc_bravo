@@ -27,10 +27,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240 \
     rild.libpath=/system/lib/libhtc_ril.so \
-    ro.ril.ecc.HTC-ELL=92,93,94 \
-    ro.ril.ecc.HTC-WWE=999 \
-    ro.ril.enable.a52.HTC-ITA=1 \
-    ro.ril.enable.a53.HTC-ITA=1 \
     ro.ril.enable.a52=0 \
     ro.ril.enable.a53=1 \
     ro.ril.enable.dtm = 1 \
@@ -60,8 +56,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # AGPS otpions
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.ril.def.agps.mode=2 \
-    ro.ril.def.agps.feature=2
+    ro.ril.def.agps.mode=2
 
 # The OpenGL ES API level that is natively supported by this device.
 # This is a 16.16 fixed point number
